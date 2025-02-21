@@ -17,8 +17,6 @@ employee = Employee(name="Hera Ai", position="Baker", salary=16959)
 
 print("Initial Employee Details:")
 employee.display_employee()
-
 employee.give_raise(5000)
-
 print("Employee Details After Raise:")
 employee.display_employee()
