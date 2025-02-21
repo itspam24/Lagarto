@@ -29,11 +29,7 @@ if __name__ == "__main__":
     account = BankAccount(account_number="10082305", owner="Hera Ai", balance=3000.0)
 
     account.display_balance()
-    
     account.deposit(2000.0)
-
     account.withdraw(300.0)
-
     account.withdraw(200.0)
-
     account.display_balance()
